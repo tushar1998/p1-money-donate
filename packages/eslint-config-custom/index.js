@@ -1,7 +1,7 @@
 module.exports = {
-  extends: ["next", "turbo", "prettier"],
+  extends: ["airbnb", "airbnb-typescript", "airbnb/hooks"],
   rules: {
-    "@next/next/no-html-link-for-pages": "off",
-    "react/jsx-key": "off",
+    "import/no-default-export": 1,
+    "import/prefer-default-export": 0,
   },
 };
