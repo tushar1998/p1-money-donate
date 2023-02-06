@@ -1,0 +1,15 @@
+{
+  "name": "api-utils",
+  "version": "0.0.0",
+  "main": "./index.ts",
+  "types": "./index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint *.ts*"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "mongoose": "^6.9.0",
+    "tsconfig": "workspace:*"
+  }
+}
